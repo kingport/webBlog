@@ -1,0 +1,9 @@
+{
+  "browserslist": {
+    "development": [],
+    "production":[]
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base"
+  }
+}
