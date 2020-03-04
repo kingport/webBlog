@@ -14,5 +14,7 @@
    
   https://github.com/kingport/webBlog/issues/6#issue-571064734  浏览器 & NodeJS中Event Loop执行流程
   
+  https://github.com/kingport/webBlog/issues/3#issue-571060148 JS的数据类型详解
+  
  
 
