@@ -16,5 +16,6 @@
   
   https://github.com/kingport/webBlog/issues/3#issue-571060148 JS的数据类型详解
   
+  https://github.com/kingport/webBlog/issues/4#issue-571061842 JS执行上下文、变量提升、函数提升
  
 
