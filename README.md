@@ -11,5 +11,8 @@
   https://github.com/kingport/webBlog/issues/14#issue-575188258 事件的冒泡和捕捉
   
   https://github.com/kingport/webBlog/issues/12#issue-572833989 URL输入过程详解
+   
+  https://github.com/kingport/webBlog/issues/6#issue-571064734  浏览器 & NodeJS中Event Loop执行流程
+  
  
 
