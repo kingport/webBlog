@@ -7,5 +7,7 @@
   https://github.com/kingport/webBlog/issues/2#issue-571052159 JS中的闭包，以及闭包使用的场景。
   
   https://github.com/kingport/webBlog/issues/13#issue-572835822 Vue & React总结。
+  
+  https://github.com/kingport/webBlog/issues/14#issue-575188258 事件的冒泡和捕捉
  
 
