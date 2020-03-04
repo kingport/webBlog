@@ -9,5 +9,7 @@
   https://github.com/kingport/webBlog/issues/13#issue-572835822 Vue & React总结。
   
   https://github.com/kingport/webBlog/issues/14#issue-575188258 事件的冒泡和捕捉
+  
+  https://github.com/kingport/webBlog/issues/12#issue-572833989 URL输入过程详解
  
 
