@@ -215,7 +215,48 @@ function throttle(fn,dealy) {
     return quickSort(left).concat([base], quickSort(right));
   }
 
-   /**
-    * 几种常见的去重方式
-    */
+  /**
+   * 几种常见的去重方式
+   * 不考虑兼容性 但是无法去除{}
+   * 适用于大部分数据
+   */
+  function unique (arr) {
+    return Array.from(new Set(arr))
+  }
 
+  function unique(arr) {
+    for(var i = 0; i<arr.length; i++) {
+      for(var j = i+1; j<arr.length; j++) {
+        if(arr[i] === arr[j]) {
+          arr.splice(j,1);
+          j--; // 重复的数组去除了一个 所以往前进1
+        }
+      }
+    }
+    return arr;
+  }
+
+  function unique(arr) {
+    let newArr = []
+    for(var i = 0; i<arr.length; i++) {
+      if(arr.indexOf(arr[i] === -1)){
+        newArr.push(arr[i])
+      }
+    }
+    return newArr;
+  }
+
+  function unique(arr) {
+    if (!Array.isArray(arr)) {
+        console.log('type error!')
+        return;
+    }
+    arr = arr.sort();
+    var arrry= [arr[0]];
+    for (var i = 1; i < arr.length; i++) {
+        if (arr[i] !== arr[i-1]) {
+            arrry.push(arr[i]);
+        }
+    }
+    return arrry;
+  }
