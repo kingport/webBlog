@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/about.js.0e8be3ee67e918da86cf.hot-update.js","sources":["webpack:///./pages/about.js"],"sourcesContent":["export default function Index() {\n  return (\n    <div>\n      about1\n    </div>\n  )\n}"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AACA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAIA;;;;A","sourceRoot":""}
